@@ -1,3 +1,3 @@
-# predict_next_word_nlp
+# AutoComplete 
 
 This GitHub project is an implementation of a Sentence AutoComplete Tool that predicts the next word in a sentence using a word2vec pretrained model and LSTM. The Enron Sent Corpus Dataset is used for the training data, which requires tokenization and preprocessing. The data is split into samples, with each sample containing one paragraph, and then further split into fixed time steps. A pretrained word2vec model is downloaded and used as an embedding layer that is fed to the LSTM model. The training data is divided into training and validation data, with the training data ranging from enronsent00 to enronsent10, and the validation data ranging from enronsent11 to enronsent15.
